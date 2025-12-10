@@ -1,0 +1,45 @@
+:root {
+  font-size: 100%;
+  font-family: "DMSans-Medium";
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-background-primary: #020e3d; /* Fundo principal */
+  --color-background-secondary: #1F2539; /* Fundo de cartões/inputs */
+  --color-text-white: #FFFFFF; /* Cor do texto principal */
+  --color-border-subtle: #30364C;
+  --color-hourly-forecast: #292e42;
+  --color-search: #dde0ec;
+  --color-background-input: #2a3046; /* Fundo de cartões/inputs */
+  --color-background-history: #343a50;
+  --color-button: #3554d0;
+  --color-button-hover: #1c38a6;
+  --color-history-item: #4e4e6c;
+
+
+  background-color: var(--color-background-primary);
+  color: var(--color-text-white);
+}
+
+@font-face {
+  font-family: "BricolageGrotesque";
+  src: url(assets/fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: "DMSans-Italic";
+  src: url(assets/fonts/DM_Sans/DMSans-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url(assets/fonts/DM_Sans/static/DMSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "DMSans-Medium";
+  src: url(assets/fonts/DM_Sans/static/DMSans-Medium.ttf);
+}

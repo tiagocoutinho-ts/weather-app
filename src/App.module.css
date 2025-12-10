@@ -1,0 +1,52 @@
+.notfound {
+  text-align: center;
+}
+
+.card_weather {
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.dailyForecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.subtitles {
+  font-size: 0.8rem;
+  margin: 0;
+  margin-bottom: 0.6rem;
+}
+
+.dailyrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.border_hourlyforecast {
+  padding: 1rem;
+}
+
+.card_weather_and_daily {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  width: 40rem;
+}
+
+.hourlyforecast {
+  width: 15rem;
+  height: 27rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  padding: 1.2rem;
+  border: 1px var(--color-border-subtle) solid;
+  background-color: var(--color-background-secondary);
+}
