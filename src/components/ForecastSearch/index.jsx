@@ -29,7 +29,7 @@
         }
 
         return (
-            <main className={style.main}>
+            <div className={style.main}>
 
                 <div className={style.logo}>
                     <img src={LogoWeather} />
@@ -56,6 +56,6 @@
                         </form>
                     </div>
                 </header>
-            </main>
+            </div>
         )
     }

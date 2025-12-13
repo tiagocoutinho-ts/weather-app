@@ -1,18 +1,22 @@
 .contenthour {
     display: flex;
-    height: 2rem; 
+    height: 1.70rem;
     margin-top: 0.3rem;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 0.20rem;
-    border: 1px var(--color-border-subtle) solid;
-    border-radius: 0.5rem;
-    background-color: var(--color-border-subtle);
+    border: 1px var(--color-border-hourly-forecast-list) solid;
+    border-radius: 0.3em;
+    background-color: var(--color-hourly-forecast-list);
     font-size: 0.8rem;
 }
 
 .img {
     width: 2rem;
+}
+
+.hour_text {
+    margin: 0;
 }
 
 .img_and_hour {

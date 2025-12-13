@@ -1,17 +1,17 @@
 .logo {
-  height: 2rem;
-  margin-top: 1.5rem;
-  margin-left: 4rem;
-  margin-bottom: 2rem;
+  height: 1.6rem;
+  margin-top: 1.2rem;
+  margin-left: 8rem;
+  margin-bottom: 1rem;
   display: flex;
   justify-content: space-between;
 }
 
 .header {
     margin: auto;
-    max-width: 30rem;
+    max-width: 34rem;
     font-family: "BricolageGrotesque";
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
   
     form {
@@ -19,7 +19,7 @@
     }
   
     h1 {
-      margin-bottom: 1.4rem;
+      margin-bottom: 1rem;
     }
   
     .search_container {

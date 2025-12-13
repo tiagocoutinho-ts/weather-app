@@ -5,7 +5,7 @@ export default function HourlyForecast({ img, hour, temp }) {
         <div className={style.contenthour}>
             <div className={style.img_and_hour}>
                 <img src={img} alt="icon-weather" className={style.img} />
-                <p>{hour}</p>
+                <p className={style.hour_text}>{hour}</p>
             </div>
             <div className={style.img_and_hour}>
                 <p>{temp}&deg;</p>

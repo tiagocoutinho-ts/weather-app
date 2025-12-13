@@ -1,10 +1,10 @@
 import { useState } from 'react'
 import style from "./App.module.css"
-import  CurrentWeatherCard  from './components/CurrentWeatherCard/index.jsx';
-import  DailyForecast  from './components/DailyForecast/index.jsx';
-import  HourlyForecast  from './components/HourlyForecast/index.jsx';
-import  SpinLoader from './components/SpinLoader/index.jsx';
-import  ForecastSearch  from './components/ForecastSearch/index.jsx';
+import CurrentWeatherCard from './components/CurrentWeatherCard/index.jsx';
+import DailyForecast from './components/DailyForecast/index.jsx';
+import HourlyForecast from './components/HourlyForecast/index.jsx';
+import SpinLoader from './components/SpinLoader/index.jsx';
+import ForecastSearch from './components/ForecastSearch/index.jsx';
 import { weatherIconMap } from "./utils/weatherMap.js"
 
 function App() {
@@ -14,11 +14,11 @@ function App() {
 
   return (
     <main>
-    <ForecastSearch
-      setWeatherData={setWeatherData}
-      setIsLoading={setIsLoading}
-      setError={setError}
-    />
+      <ForecastSearch
+        setWeatherData={setWeatherData}
+        setIsLoading={setIsLoading}
+        setError={setError}
+      />
 
       {isLoading && (
         <SpinLoader />

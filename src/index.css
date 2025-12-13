@@ -7,13 +7,14 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --color-background-primary: #020e3d; /* Fundo principal */
-  --color-background-secondary: #1F2539; /* Fundo de cartões/inputs */
+  --color-background-primary: #03022e; /* Fundo principal */
+  --color-background-secondary: #1c2342; /* Fundo de cartões/inputs */
   --color-text-white: #FFFFFF; /* Cor do texto principal */
   --color-border-subtle: #30364C;
-  --color-hourly-forecast: #292e42;
-  --color-search: #dde0ec;
-  --color-background-input: #2a3046; /* Fundo de cartões/inputs */
+  --color-hourly-forecast-list: #181f3e;
+  --color-border-hourly-forecast-list: #3d4050;
+  --color-search: #cbcfdd;
+  --color-background-input: #323644; /* Fundo de cartões/inputs */
   --color-background-history: #343a50;
   --color-button: #3554d0;
   --color-button-hover: #1c38a6;

@@ -7,13 +7,17 @@
 .daily {
     display: flex;
     flex-direction: column;
-    width: 5rem;
-    height: 8rem;
+    width: 4.5rem;
+    height: 6.4rem;
     border: 1px var(--color-border-subtle) solid;
     background-color: var(--color-background-secondary);
     text-align: center;
     align-items: center;
     border-radius: 0.5rem;
+}
+
+.description {
+    margin: 0.3rem;
 }
 
 .temp {
@@ -23,6 +27,6 @@
 }
 
 .img {
-    width: 3rem;
+    width: 2.5rem;
     height: auto;
 }
