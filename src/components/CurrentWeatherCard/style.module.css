@@ -37,7 +37,8 @@
 }
 
 .maintemp {
-    font-size: 5rem;
+    margin: 0;
+    font-size: 3.50rem;
     font-family: "DMSans-Italic";
 }
 
@@ -57,4 +58,28 @@
 .infotime {
     font-size: 1.4rem;
     margin: 0;
+}
+
+@media (max-width: 450px) {
+    .WeatherCard {
+        display: flex;
+    }
+
+    .contentmain {
+        width: 90vw;
+        height: 40vh;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .more {
+        width: 90vw;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
 }

@@ -46,7 +46,7 @@ function App() {
 
           {weatherData && (
             <section className={style.dailyForecast}>
-              <p className={style.subtitles}>Daily forecast</p>
+              <p className={style.subtitles_daily}>Daily forecast</p>
               <div className={style.dailyrow}>
                 {weatherData.daily.map((day, index) => {
                   const iconSource = weatherIconMap[day.weatherCode]
@@ -68,7 +68,7 @@ function App() {
         <div>
           {weatherData && (
             <section className={style.hourlyforecast}>
-              <p className={style.subtitles}>Hourly forecast</p>
+              <p className={style.subtitles_hourly}>Hourly forecast</p>
               {weatherData.hourly.map((hour, index) => {
                 const iconSource = weatherIconMap[hour.weatherCode]
                 return (

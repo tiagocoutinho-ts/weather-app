@@ -17,13 +17,20 @@ main {
 .dailyForecast {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-between;   
 }
 
-.subtitles {
+.subtitles_daily {
   font-size: 0.8rem;
-  margin: 0;
-  margin-bottom: 0.6rem;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+.subtitles_hourly {
+  font-size: 0.8rem;
+  margin-top: 0.2rem;
+  margin-left: 0.2rem;
+  margin-bottom: 0;
 }
 
 .dailyrow {
@@ -44,11 +51,23 @@ main {
 }
 
 .hourlyforecast {
-  width: 15rem;
-  height: 23.2rem;
+  width: 14rem;
+  height: 24.3rem;
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: 0.65rem;
   background-color: var(--color-background-secondary);
+}
+
+@media (max-width: 450px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card_weather {
+    display: flex;
+    flex-direction: column;
+  }
 }
