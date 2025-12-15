@@ -50,7 +50,7 @@
                                     onChange={({ target }) => setInput(target.value)} />
                             </div>
 
-                            <div>
+                            <div className={style.div_button}>
                                 <button type='submit'>Search</button>
                             </div>
                         </form>

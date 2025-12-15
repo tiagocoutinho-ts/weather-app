@@ -13,7 +13,7 @@ export default function CurrentWeatherCard(
   return (
     <section className={style.WeatherCard}>
       <div className={style.contentmain}>
-        <div>
+        <div className={style.box_city_date}>
           <p className={style.city}>{city}</p>
           <p className={style.date}>{date}</p>
         </div>

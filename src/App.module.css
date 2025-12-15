@@ -17,7 +17,7 @@ main {
 .dailyForecast {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;   
+  justify-content: space-between;
 }
 
 .subtitles_daily {
@@ -63,11 +63,35 @@ main {
 @media (max-width: 450px) {
   main {
     display: flex;
+    width: 90vw;
+    margin: auto;
     flex-direction: column;
+    box-sizing: border-box;
   }
 
   .card_weather {
     display: flex;
     flex-direction: column;
+  }
+
+  .dailyForecast {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+  }
+
+  .dailyrow {
+    display: flex;
+    width: 90vw;
+    gap: 1rem;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+  }
+
+  .hourlyforecast {
+    width: 85vw;
+    margin: auto;
+    height: 30rem;
   }
 }
