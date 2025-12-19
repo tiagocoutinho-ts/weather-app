@@ -32,7 +32,7 @@
             <div className={style.main}>
 
                 <div className={style.logo}>
-                    <img src={LogoWeather} />
+                    <img src={LogoWeather} alt='Logo Weather App'/>
                 </div>
 
                 <header className={style.header}>
