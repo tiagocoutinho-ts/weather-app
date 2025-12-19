@@ -37,7 +37,7 @@
 
                 <header className={style.header}>
 
-                    <h1>How's the sky looking today?</h1>
+                    <h1>{"How's the sky looking today?"}</h1>
 
                     <div className={style.search_container}>
                         <form onSubmit={handlerInput}>
