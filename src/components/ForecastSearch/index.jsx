@@ -31,11 +31,11 @@
         return (
             <div className={style.main}>
 
+
+                <header className={style.header}>
                 <div className={style.logo}>
                     <img src={LogoWeather} />
                 </div>
-
-                <header className={style.header}>
 
                     <h1>How's the sky looking today?</h1>
 
