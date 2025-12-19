@@ -74,10 +74,20 @@ main {
     flex-direction: column;
   }
 
+  .card_weather_and_daily {
+    width: 100%;       
+    max-width: 90vw;   
+    margin: 0 auto;
+  }
+
   .dailyForecast {
     display: flex;
     width: 90vw;
     margin: auto;
+  }
+
+  .subtitles_daily {
+    font-size: 1rem;
   }
 
   .dailyrow {
@@ -93,5 +103,9 @@ main {
     width: 85vw;
     margin: auto;
     height: 30rem;
+  }
+
+  .subtitles_hourly {
+    font-size: 1rem;
   }
 }

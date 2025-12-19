@@ -33,7 +33,6 @@
 
                 <div className={style.logo}>
                     <img src={LogoWeather} />
-                    
                 </div>
 
                 <header className={style.header}>
