@@ -4,6 +4,7 @@
   margin-left: 12rem;
   margin-bottom: 1rem;
   display: flex;
+  justify-content: space-between;
 }
 
 .header {
@@ -110,7 +111,7 @@ button:hover {
 @media (max-width: 450px) {
   .logo {
     height: 1.8rem;
-    margin-left: 0.2rem;
+    margin-left: 0.5rem;
   }
 
   .header {
